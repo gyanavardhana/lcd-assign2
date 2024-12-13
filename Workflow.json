@@ -170,7 +170,7 @@
       "nextStep": "condition_aadhar_status",
       "name": "Check Aaadhar Status API",
       "properties": {
-        "url": "https://localhost:3000/v1/api/aadhar-status",
+        "url": "https://localhost:3000/v1/api/check-aadhar-status",
         "apiType": "json_get",
         "requestBody": {
           "referenceId": "HV001"
