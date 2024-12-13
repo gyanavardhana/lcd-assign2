@@ -23,7 +23,7 @@ Content-Type: application/json
 ```
 
 ##### Failure
-- **Status Code**: `503 Service Unavailable`
+- **Status Code**: `503 Service Unavailable redirecting `
 - **Body**:
 ```json
 {
