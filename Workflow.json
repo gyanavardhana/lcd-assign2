@@ -170,7 +170,8 @@
           "if_false":"auto_decline"
        },
        "condition_post_idcard_validation":{
-          "rule":"module_id_card_validation.front_action == 'pass'",
+          "_comment": "The rule here is changed to solve the question number one problem , which is error in flow of validating of back of photo id. ",
+          "rule":"(module_id_card_validation.front_action == 'pass' && module_id_card_validation.back_action == 'pass')",
           "if_true":"module_selfie_validation",
           "if_false":"auto_decline"
        },
